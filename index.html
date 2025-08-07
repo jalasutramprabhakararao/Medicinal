@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicinal Plant Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Medicinal Plant Detection</h1>
+        <div class="upload-container">
+            <input type="file" id="imageUpload" accept="image/*" />
+            <div class="image-preview" id="imagePreview">
+                <img src="" alt="Preview" id="previewImage">
+            </div>
+        </div>
+        <div class="result" id="result">
+            <h2>Prediction Result</h2>
+            <div id="predictionText">Upload an image to identify the plant</div>
+            <div class="confidence-container">
+                <div class="confidence-bar" id="confidenceBar"></div>
+            </div>
+            <div id="confidenceText">Confidence: 0%</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.20.0/dist/tf.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
