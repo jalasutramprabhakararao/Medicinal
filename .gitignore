@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+tfjs_conversion_env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (large files)
+*.h5
+*.hdf5
+*.tflite
+*.pb
+*.pbtxt
+*.tfl
+*.lite
+*.tflite
+*.pkl
+*.joblib
+*.model
+*.weights
+
+# Dataset (if included)
+data/
+dataset/
+images/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local development
+*.local
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you add frontend dependencies)
+node_modules/
+
+# Build files (if you have any)
+dist/
+build/
+
+Trained_model.keras
